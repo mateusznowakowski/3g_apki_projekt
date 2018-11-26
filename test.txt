@@ -1,1 +1,1 @@
-To jest test Jordiego, który jest fajny (Jordi, nie test).
+Nieprawda, ten commit jest lepszy!
