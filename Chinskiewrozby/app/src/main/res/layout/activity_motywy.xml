@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007e00"
+    tools:context="com.example.maciejniedzielski.chinskiewrozby.motywy"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="58dp"
+        android:onClick="dzielo"
+        android:text="Dzieło"
+        app:layout_constraintStart_toEndOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="58dp"
+        android:onClick="motyw"
+        android:text="Motyw"
+        app:layout_constraintEnd_toStartOf="@+id/button16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="255dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:onClick="wroc"
+        android:text="Wróć"
+        app:layout_constraintTop_toBottomOf="@+id/button16"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="323dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="71dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="21dp" />
+</android.support.constraint.ConstraintLayout>

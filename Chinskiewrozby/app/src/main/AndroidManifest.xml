@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maciejniedzielski.chinskiewrozby">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Chińskie wróżby i Polski na 2"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Aktywnosc"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".clicker"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".polski"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".epoki"
+            android:screenOrientation="portrait" />
+        <activity android:name=".motywy" />
+        <activity android:name=".ort"></activity>
+    </application>
+
+</manifest>

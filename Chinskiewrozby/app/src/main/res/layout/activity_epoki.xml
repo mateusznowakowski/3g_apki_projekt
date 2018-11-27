@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007e00"
+    tools:context="com.example.maciejniedzielski.chinskiewrozby.epoki">
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="543dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="19dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="b1"
+                android:text="Antyk" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="b2"
+                android:text="Średniowiecze" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="b3"
+                android:text="Renesans" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="b4"
+                android:text="Barok" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="b5"
+                android:text="Oświecenie" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="b6"
+                android:text="Romantyzm" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="b7"
+                android:text="Pozytywizm" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="b8"
+                android:text="Młoda Polska" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="b9"
+                android:text="Dwudziestolecie Międzywojenne" />
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="b10"
+                android:text="Współczesność" />
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:onClick="b11"
+                android:text="Wróć" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
